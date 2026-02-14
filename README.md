@@ -16,4 +16,6 @@ http://127.0.0.1:8000/docs
 error1:
     ImportError: cannot import name 'TypeAdapter' from 'pydantic' (D:\campusx_fastapi\myenv\Lib\site-packages\pydantic\__init__.py)
 sol: pip install --upgrade pydantic 
-
+--------
+error2:
+    
