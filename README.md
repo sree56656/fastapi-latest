@@ -6,6 +6,8 @@ python -m venv myenv
 pip install fastapi uvicorn
 pip install fastapi uvicorn pydantic --only-binary :all:
 winget install --id Git.Git -e --source winget # git installation
+pip install pydantic
+pip install 'pydantic[email]' # required for email validator
 
 uvicorn filename:app--reload
 uvicorn main:app --reload
