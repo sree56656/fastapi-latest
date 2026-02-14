@@ -8,7 +8,7 @@ pip install fastapi uvicorn pydantic --only-binary :all:
 winget install --id Git.Git -e --source winget # git installation
 
 uvicorn filename:app--reload
-uvicorn main:app--reload
+uvicorn main:app --reload
 
 http://127.0.0.1:8000/docs
 
